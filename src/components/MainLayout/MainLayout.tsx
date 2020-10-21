@@ -10,7 +10,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://material-ui.com/">
-        My Store with first changes and serveless deploy
+        My Store
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -42,6 +42,9 @@ const MainLayout: React.FC = ({children}) => {
       <footer className={classes.footer}>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
           Thank you for your purchase!
+        </Typography>
+        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+          3rd changes and deploy with single-page-app-plugin
         </Typography>
         <Copyright/>
       </footer>
