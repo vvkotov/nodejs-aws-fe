@@ -43,6 +43,9 @@ const MainLayout: React.FC = ({children}) => {
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
           Thank you for your purchase!
         </Typography>
+        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+          3rd changes and deploy with single-page-app-plugin
+        </Typography>
         <Copyright/>
       </footer>
     </>
